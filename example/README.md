@@ -1,16 +1,30 @@
-# flutter_qrscaner_example
+## 功能
+- 打开二维码扫码界面并返回扫码结果（目前只支持android端）
+## Demo
+[下载 APK-Demo](https://fir.im/ayxt)
 
-Demonstrates how to use the flutter_qrscaner plugin.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![](https://github.com/yah0130/flutter_qrscaner/blob/master/%E6%88%AA%E5%9B%BE.png)
+## 用法
+#### 1.在 pubspec.yaml 中添加依赖
+```
+dependencies:
+  flutter_qrscaner: ^0.0.1
+```
+#### 2.在AndroidManifest.xml添加相机权限
+```
+<uses-permission android:name="android.permission.CAMERA" />
+```
+#### 3.在按钮点击事件里调用
+```dart
+import 'package:flutter_qrscaner/flutter_qrscaner.dart';
+....
+  RaisedButton(
+    onPressed: () {
+      FlutterQrscaner.startScan.then((value) {
+        setState(() {
+          _qrContent = value;
+        });
+      });
+    },
+    child: Text('开始扫码')),
+```
