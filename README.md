@@ -15,7 +15,9 @@ dependencies:
   flutter_qrscaner: ^0.0.1
 ```
 #### 2.在AndroidManifest.xml添加相机权限
+```
 <uses-permission android:name="android.permission.CAMERA" />
+```
 #### 3.在按钮点击事件里调用
 ```dart
 import 'package:flutter_qrscaner/flutter_qrscaner.dart';
