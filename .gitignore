@@ -6,3 +6,4 @@
 .pub/
 build/
 flutter_qrscaner.iml
+local.properties
