@@ -8,7 +8,7 @@
 #### 1.在 pubspec.yaml 中添加依赖
 ```
 dependencies:
-  flutter_qrscaner: ^0.0.1
+  flutter_qrscaner: ^0.0.2
 ```
 #### 2.在AndroidManifest.xml添加相机权限
 ```

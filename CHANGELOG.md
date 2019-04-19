@@ -1,3 +1,6 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- 第一版发布
+## 0.0.2
+
+- 添加描述和例子
