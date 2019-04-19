@@ -2,7 +2,7 @@ name: flutter_qrscaner
 description: a qr scaner
 version: 0.0.2
 author: YanHao <yanhao0130@hotmail.com>
-homepage: https://github.com/yah0130
+homepage: https://github.com/yah0130/flutter_qrscaner
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
