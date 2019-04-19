@@ -1,7 +1,8 @@
 .DS_Store
 .dart_tool/
-
+.idea
+.gradle
 .packages
 .pub/
-
 build/
+flutter_qrscaner.iml
