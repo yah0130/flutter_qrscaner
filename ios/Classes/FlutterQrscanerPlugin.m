@@ -1,5 +1,5 @@
 #import "FlutterQrscanerPlugin.h"
-#import <flutter_plugin/flutter_plugin-Swift.h>
+#import <flutter_qrscaner/flutter_qrscaner-Swift.h>
 
 @implementation FlutterQrscanerPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
