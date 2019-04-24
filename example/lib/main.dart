@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
               Spacer(),
               RaisedButton(
                   onPressed: () {
-                    FlutterQrscaner.startScan.then((value) {
+                    FlutterQrscaner.startScan().then((value) {
                       setState(() {
                         _qrContent = value;
                       });

@@ -66,7 +66,7 @@ public final class ViewfinderView extends View {
     // 扫描线移动的y
     private int scanLineTop;
     // 扫描线移动速度
-    private final int SCAN_VELOCITY = 10;
+    private final int SCAN_VELOCITY = 20;
     // 扫描线
     Bitmap scanLight;
 
@@ -127,7 +127,7 @@ public final class ViewfinderView extends View {
             // Draw a red "laser scanner" line through the middle to show
             // decoding is active
             drawFrameBounds(canvas, frame);
-            drawStatusText(canvas, frame, width);
+//            drawStatusText(canvas, frame, width);
 
             // 绘制扫描线
             // paint.setColor(laserColor);

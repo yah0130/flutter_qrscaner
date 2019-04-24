@@ -24,7 +24,7 @@ import 'package:flutter_qrscaner/flutter_qrscaner.dart';
 ....
   RaisedButton(
     onPressed: () {
-      FlutterQrscaner.startScan.then((value) {
+      FlutterQrscaner.startScan().then((value) {
         setState(() {
           _qrContent = value;
         });
