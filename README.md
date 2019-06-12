@@ -7,7 +7,7 @@
 ## Demo
 [下载 APK-Demo](https://fir.im/ayxt)
 
-![](https://github.com/yah0130/flutter_qrscaner/blob/master/%E6%88%AA%E5%9B%BE.png)
+![](https://raw.githubusercontent.com/yah0130/flutter_qrscaner/master/%E6%88%AA%E5%9B%BE.png)
 ## 用法
 #### 1.在 pubspec.yaml 中添加依赖
 ```
