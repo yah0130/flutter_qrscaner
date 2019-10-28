@@ -1,6 +1,6 @@
 name: flutter_qrscaner
-description: a qr scaner
-version: 0.0.4
+description: A QR scan plugin based on zxing for android,it is very simple to use,only need one line code.This plugin is not work for ios,because i have no idea on object c or swift.
+version: 1.0.0
 author: YanHao <yanhao0130@hotmail.com>
 homepage: https://github.com/yah0130/flutter_qrscaner
 
